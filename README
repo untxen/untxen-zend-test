@@ -2,3 +2,12 @@ Don't forget that in your site-enable/ site file
 
 	SetEnv APPLICATION_ENV "development"
 	DocumentRoot /var/www/untxen-zend-test/public
+
+	
+And create a symlink to library/Zend/ on the root:
+
+application/
+docs/
+public/
+library/ <-- symlink to my_zend_framework_dir/library/
+tests/ 
